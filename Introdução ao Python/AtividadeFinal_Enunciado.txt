@@ -1,0 +1,31 @@
+Sistema de Inventário
+
+- Criar um sistema de inventário com 5 opções OK
+  - Adicionar item
+  - Remover item
+  - Listar itens
+  - Gerar CSV dos itens existentes
+  - Sair da aplicação
+
+- Adicionar item OK
+  - Cadastrar um item, usando dicionários, com id, nome e preço
+  - Adicionar esse item a uma lista
+
+- Remover item OK
+  - Buscar item pelo id
+  - Retornar o nome do item
+  - Perguntar ao usuário se ele tem certeza que deseja remover o item
+    - Se não, não fazer nada
+    - Se sim, excluir o item da lista
+
+- Listar itens OK
+  - Colocar na primeira linha, os campos id, nome e preço (campos do dicionário) separados por pipe (|)
+  - Listar abaixo todos os itens cadastrados
+
+- Gerar CSV OK
+  - Usar o módulo CSV do Python para gerar um arquivo .csv dos itens cadastrados
+
+- Sair da aplicação OK
+  - Finaliza o loop while e fecha o programa
+
+- Se digitar uma opção inexistente, indicar que a opção escolhida é inválida OK
